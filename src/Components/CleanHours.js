@@ -5,6 +5,7 @@ const CleanHours = () => {
     const [showMoneyDiv, setShowMoneyDiv] = useState(false);
     const [money1, setMoney1] = useState(0);
     const [money2, setMoney2] = useState(0);
+    const [steviloUr, setSetsteviloUr] = useState(0);
 
     const handleSubmit = (event) => {
         event.preventDefault();
@@ -18,6 +19,7 @@ const CleanHours = () => {
             sum = sum + parseInt(arr[i]);
         }
 
+        setSetsteviloUr(sum);
         setMoney1(sum * 5.8);
         setMoney2(sum * 6.2);
         setShowMoneyDiv(true);
@@ -31,7 +33,7 @@ const CleanHours = () => {
                 <input type="text" id="inputText" />
                 <br />
                 <br />
-                <input type="submit" value="Submit" className='btnForm'/>
+                <input type="submit" value="Submit" className='btnForm' />
             </form>
 
             <br /><br />
@@ -42,6 +44,9 @@ const CleanHours = () => {
                     <div>Possible money: {money2}</div>
                 </div>
             )}
+
+            <br />
+            Stevilo ur: {steviloUr}
 
         </div>
     )
