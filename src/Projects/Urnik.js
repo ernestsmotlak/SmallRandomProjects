@@ -1,9 +1,11 @@
 import React from 'react'
 
 const Urnik = () => {
-  return (
-    <div>Urnik</div>
-  )
+    return (
+        <div className='urnik'>
+            <h2>Urnik</h2>
+        </div>
+    )
 }
 
 export default Urnik

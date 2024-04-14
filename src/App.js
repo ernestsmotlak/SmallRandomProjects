@@ -1,15 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
-import { useState } from 'react';
 import Urnik from './Projects/Urnik';
+import { BrowserRouter, Routes, Route, Router } from "react-router-dom";
+import { useState } from 'react';
 
 function App() {
 
 
   return (
-    <div className="App">
-      <Urnik />
-    </div>
+    <BrowserRouter >
+      <div className="App">
+        <Routes>
+          <Route path='/TimetableClean' element={<Urnik />} />
+        </Routes>
+      </div>
+    </BrowserRouter >
   );
 }
 
