@@ -8,16 +8,16 @@ const MainRouter = () => {
                     <h2 className="card-title">Choose!</h2>
                     <div>
                         <label className="form-label">Choose Your Preffered Functionality:</label>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item"><p>
-                                <a class="link-offset-3 link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="/TimetableClean">Timetable Tool</a></p>
+                        <ul className="list-group list-group-flush">
+                            <li className="list-group-item"><p>
+                                <a className="link-offset-3 link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="/TimetableClean">Timetable Tool</a></p>
                             </li>
-                            <li class="list-group-item">
-                                <p><a class="link-offset-3 link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="#">Offset 3 link</a></p>
+                            {/* <li className="list-group-item">
+                                <p><a className="link-offset-3 link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="#">Offset 3 link</a></p>
                             </li>
-                            <li class="list-group-item">
-                                <p><a class="link-offset-3 link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="#">Offset 3 link</a></p>
-                            </li>
+                            <li className="list-group-item">
+                                <p><a className="link-offset-3 link-primary link-offset-2 link-underline-opacity-50 link-underline-opacity-100-hover" href="#">Offset 3 link</a></p>
+                            </li> */}
                         </ul>
                     </div>
                 </div>

@@ -43,7 +43,7 @@ const Urnik = () => {
                     </div>
                 </div>
                 {finalSum > 0 && <p>Number of hours worked: {finalSum}  <br /></p>}
-                {finalSum > 0 && <p>Money expected: {finalSum * 6.2} €</p>}
+                {finalSum > 0 && <p>Money expected: {(finalSum * 6.2).toFixed(1)} €</p>}
                 {emptyInputMessage && <div className='text-danger mb-3'>{emptyInputMessage}</div>}
                 {noNumbersMessage && <div className='text-danger mb-3'>{noNumbersMessage}</div>}
 
